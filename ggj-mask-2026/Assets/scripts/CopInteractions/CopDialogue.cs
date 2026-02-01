@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class CopDialogue : MonoBehaviour
@@ -22,6 +23,11 @@ public class CopDialogue : MonoBehaviour
     [Header("Timer")]
     public float timer;
     public float startTime = 10f;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip roosterSound;
+    public AudioClip pigSound;
 
     void Update()
     {
@@ -53,6 +59,8 @@ public class CopDialogue : MonoBehaviour
 
     IEnumerator TypeDialoge()
     {
+        yield return new WaitForSeconds(1f);
+        audioSource.PlayOneShot(pigSound);
         foreach (char c in lines[questionIndex].ToCharArray())
         {
             DialogetextComponent.text += c;
@@ -82,18 +90,22 @@ public class CopDialogue : MonoBehaviour
         }
         else if (answerIndex == 2)
         {
+            Question1.SetActive(false);
             Question2.SetActive(true);
         }
         else if (answerIndex == 3)
         {
+            Question2.SetActive(false);
             Question3.SetActive(true);
         }
         else if (answerIndex == 4)
         {
+            Question3.SetActive(false);
             Question4.SetActive(true);
         }
         else if (answerIndex >= 5)
         {
+            Question4.SetActive(false);
             HideQuetions();
             Debug.Log("Transition to the next scene"); //ADD SCENE TRANSITION
         }
@@ -111,6 +123,7 @@ public class CopDialogue : MonoBehaviour
 
     public void GoodAnswer()
     {
+        audioSource.PlayOneShot(roosterSound);
         answerIndex += 1;
         HideQuetions();
         NextLine();
@@ -118,6 +131,8 @@ public class CopDialogue : MonoBehaviour
     }
     public void BadAnswer()
     {
+        audioSource.PlayOneShot(roosterSound);
+        HideQuetions();
         Debug.Log("You get arrested"); //ADD ENDING
     }
 
