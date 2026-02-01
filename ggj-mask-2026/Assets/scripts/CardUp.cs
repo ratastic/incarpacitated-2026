@@ -6,9 +6,6 @@ public class CardUp : MonoBehaviour
     public Animator anim;
     public string closedStateName = "test2";
 
-    public string goodSceneName = "End1";
-    public string badSceneName = "End2";
-
     private bool isOpen = false;
     private string openFlapStateName = "";
 
@@ -44,12 +41,12 @@ public class CardUp : MonoBehaviour
         {
             Debug.Log("good");
             FindFirstObjectByType<BadOGood>().LoadGoodEnding();
-
         }
         else
         {
             Debug.Log("bad");
             FindFirstObjectByType<BadOGood>().LoadBadEnding();
+           
 
         }
     }
