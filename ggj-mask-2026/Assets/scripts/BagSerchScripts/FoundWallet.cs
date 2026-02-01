@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 public class FoundWallet : MonoBehaviour
 {
     private Animator anim;
+
+    public SpriteRenderer spriteRenderer;
+    public Sprite[] walletArray;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,7 +21,7 @@ public class FoundWallet : MonoBehaviour
 
     public void OnMouseDown()
     {
-        anim.SetBool("FoundWallet", true);
+        anim.Play("backsearch-wallet-anime");
     }
 
     public void LoadScene(string SceneName)
@@ -27,5 +30,9 @@ public class FoundWallet : MonoBehaviour
         //copCollission.Alive();
     }
 
+    public void SwapSprite()
+    {
+        spriteRenderer.sprite = walletArray[1];
+    }
 
 }

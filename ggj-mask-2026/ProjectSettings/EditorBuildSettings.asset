@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SearchingBag.unity
     guid: 6ea706c14460540d8a2953d29414dfb7
   - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: c31a910ffa1a34cbaa6522eb11e96dc7
+  - enabled: 1
     path: Assets/Scenes/End1.unity
     guid: 296310d3bb71443ca887489dc797de6e
   - enabled: 1
