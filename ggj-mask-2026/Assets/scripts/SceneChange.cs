@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
-    public string sceneName;
+    public string scnName;
 
     public void LoadSceneByName()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(scnName);
     }
 }
