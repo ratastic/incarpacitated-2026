@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ba752440b63564ac393a8a671474c5d2
+guid: 131b4da137c8b4a6b91bc1da7262f721
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7190967279905783103
-    second: car-steering-wheel_0
+      213: 53167245861814921
+    second: cop-blue-light_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,7 +50,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
-  spritePivot: {x: 0.32698962, y: 0.30776623}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: car-steering-wheel_0
+      name: cop-blue-light_0
       rect:
         serializedVersion: 2
-        x: 457
-        y: 156
-        width: 365
-        height: 345
+        x: 0
+        y: 14
+        width: 2048
+        height: 2032
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c242c9bb5d843c90800000000000000
-      internalID: -7190967279905783103
+      spriteID: 98287431453ecb000800000000000000
+      internalID: 53167245861814921
       vertices: []
       indices: 
       edges: []
@@ -139,7 +139,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      car-steering-wheel_0: -7190967279905783103
+      cop-blue-light_0: 53167245861814921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
