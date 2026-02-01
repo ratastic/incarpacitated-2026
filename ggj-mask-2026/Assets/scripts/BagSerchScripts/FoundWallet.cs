@@ -26,8 +26,8 @@ public class FoundWallet : MonoBehaviour
 
     public void LoadScene(string SceneName)
     {
-        SceneManager.LoadScene(SceneName);
-        //copCollission.Alive();
+        FindFirstObjectByType<BadOGood>().LoadGoodEnding();
+        enabled = false;
     }
 
     public void SwapSprite()

@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public string LeveltoLoad;
+ //   public string LeveltoLoad;
     // Image timerBar;
     public float timer = 10f;
 
@@ -19,7 +19,9 @@ public class Timer : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            SceneManager.LoadScene(LeveltoLoad);
+            FindFirstObjectByType<BadOGood>().LoadBadEnding();
+            enabled = false;
+
         }
     }
 }

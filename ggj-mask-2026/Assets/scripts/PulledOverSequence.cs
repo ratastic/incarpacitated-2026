@@ -1,13 +1,13 @@
 using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
 public class PulledOverSequence : MonoBehaviour
 {
     public GameObject blueLight;
     public GameObject redLight;
     private float pause = 5f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private float pause2 = 6f;
+
     void Start()
     {
         StartCoroutine(CopLights());
@@ -15,14 +15,15 @@ public class PulledOverSequence : MonoBehaviour
 
     private IEnumerator CopLights()
     {
-        yield return new WaitForSeconds(pause);
-        
+        yield return new WaitForSeconds(pause2);
+
         Debug.Log("detected by cop");
         blueLight.SetActive(true);
         redLight.SetActive(true);
-        
-        yield return new WaitForSeconds(pause);
-        Debug.Log("add transition into next scene");
-    }
 
+        yield return new WaitForSeconds(pause);
+
+        SceneFade fade = FindFirstObjectByType<SceneFade>();
+        fade.StartFade("Talking");
+    }
 }

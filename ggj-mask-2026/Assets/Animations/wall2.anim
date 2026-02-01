@@ -396,7 +396,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 2.2253733
+        value: 2.1623268
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -405,7 +405,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
-        value: 0.8239356
+        value: 0.8287012
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -416,7 +416,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Offset.y
-    path: WalletF2/WalletOpen (2)
+    path: WalletF2/w/WalletOpen (2)
     classID: 61
     script: {fileID: 0}
     flags: 0
@@ -426,7 +426,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.77673995
+        value: 0.9028332
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -435,7 +435,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
-        value: 3.3039234
+        value: 3.570084
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -446,7 +446,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.y
-    path: WalletF2/WalletOpen (2)
+    path: WalletF2/w/WalletOpen (2)
     classID: 61
     script: {fileID: 0}
     flags: 0
@@ -576,7 +576,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 503151678
+      path: 3316933941
       attribute: 1872933342
       script: {fileID: 0}
       typeID: 61
@@ -585,7 +585,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 503151678
+      path: 3316933941
       attribute: 2368279999
       script: {fileID: 0}
       typeID: 61
@@ -2007,7 +2007,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 2.2253733
+        value: 2.1623268
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2016,7 +2016,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
-        value: 0.8239356
+        value: 0.8287012
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2027,7 +2027,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Offset.y
-    path: WalletF2/WalletOpen (2)
+    path: WalletF2/w/WalletOpen (2)
     classID: 61
     script: {fileID: 0}
     flags: 0
@@ -2037,7 +2037,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.77673995
+        value: 0.9028332
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2046,7 +2046,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
-        value: 3.3039234
+        value: 3.570084
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2057,7 +2057,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.y
-    path: WalletF2/WalletOpen (2)
+    path: WalletF2/w/WalletOpen (2)
     classID: 61
     script: {fileID: 0}
     flags: 0

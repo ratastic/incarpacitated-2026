@@ -34,6 +34,7 @@ public class CopDialogue : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
+
             Debug.Log("You get arrested"); //ADD ENDING
         }
     }
@@ -107,7 +108,12 @@ public class CopDialogue : MonoBehaviour
         {
             Question4.SetActive(false);
             HideQuetions();
+
             Debug.Log("Transition to the next scene"); //ADD SCENE TRANSITION
+
+            FindFirstObjectByType<BadOGood>().LoadBadEnding();
+            enabled = false;
+
         }
     }
 

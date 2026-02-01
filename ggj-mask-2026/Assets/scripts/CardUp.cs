@@ -1,12 +1,13 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CardUp : MonoBehaviour
 {
     public Animator anim;
     public string closedStateName = "test2";
 
-   // public string goodSceneName = "GoodScene";
-   // public string badSceneName = "BadScene";
+    public string goodSceneName = "End1";
+    public string badSceneName = "End2";
 
     private bool isOpen = false;
     private string openFlapStateName = "";
@@ -42,12 +43,14 @@ public class CardUp : MonoBehaviour
         if (clickedFlap.CompareTag("ID"))
         {
             Debug.Log("good");
-            //SceneManager.LoadScene(goodSceneName);
+            FindFirstObjectByType<BadOGood>().LoadGoodEnding();
+
         }
         else
         {
             Debug.Log("bad");
-            // SceneManager.LoadScene(badSceneName);
+            FindFirstObjectByType<BadOGood>().LoadBadEnding();
+
         }
     }
 }
