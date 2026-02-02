@@ -265,8 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057efe10b82717241a72a87073b050ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 300
-  buttonSpeed: {x: 20, y: 25}
+  minDistance: 200
+  buttonSpeed: 100
 --- !u!1 &132395976
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,7 +856,7 @@ RectTransform:
   m_GameObject: {fileID: 492654835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.601, y: 1.601, z: 1.601}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 785323447}
@@ -867,7 +867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 12, y: 66}
+  m_AnchoredPosition: {x: 12, y: 139.943}
   m_SizeDelta: {x: 674.19995, y: 67.390015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &507979129
@@ -1108,7 +1108,7 @@ MonoBehaviour:
   m_text: 'W1th thE beSt oF My abilitieS '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7a27d58424869264ebf1bd318895b7de, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -640067730860656941, guid: 7a27d58424869264ebf1bd318895b7de, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1535,8 +1535,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057efe10b82717241a72a87073b050ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 300
-  buttonSpeed: {x: 30, y: 25}
+  minDistance: 200
+  buttonSpeed: 100
 --- !u!1 &911327171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,7 +1771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDistance: 400
-  buttonSpeed: {x: 45, y: 35}
+  buttonSpeed: 100
 --- !u!1 &966569864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1919,7 +1919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDistance: 400
-  buttonSpeed: {x: 25, y: 30}
+  buttonSpeed: 300
 --- !u!1 &1121672255
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,8 +2078,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057efe10b82717241a72a87073b050ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 400
-  buttonSpeed: {x: 30, y: 30}
+  minDistance: 300
+  buttonSpeed: 250
 --- !u!1 &1139677677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2226,8 +2226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057efe10b82717241a72a87073b050ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 300
-  buttonSpeed: {x: 20, y: 25}
+  minDistance: 200
+  buttonSpeed: 100
 --- !u!1 &1155373660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2477,7 +2477,7 @@ MonoBehaviour:
   m_text: "I d0n\u2019t belieVe iN speEd limitS 0fficer P1ggy"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7a27d58424869264ebf1bd318895b7de, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -640067730860656941, guid: 7a27d58424869264ebf1bd318895b7de, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3041,8 +3041,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057efe10b82717241a72a87073b050ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 300
-  buttonSpeed: {x: 25, y: 30}
+  minDistance: 200
+  buttonSpeed: 100
 --- !u!1 &1539932545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3153,10 +3153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3236,7 +3236,7 @@ RectTransform:
   m_GameObject: {fileID: 1671819001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.601, y: 1.601, z: 1.601}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 233901224}
@@ -3244,7 +3244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 12, y: 132.86499}
+  m_AnchoredPosition: {x: 12, y: 247}
   m_SizeDelta: {x: 674.1999, y: 66.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671819003
@@ -3592,7 +3592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDistance: 400
-  buttonSpeed: {x: 40, y: 45}
+  buttonSpeed: 100
 --- !u!1 &1900264442
 GameObject:
   m_ObjectHideFlags: 0

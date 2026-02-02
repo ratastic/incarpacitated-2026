@@ -2337,8 +2337,8 @@ MonoBehaviour:
   clickS2: {fileID: 555304712456748968, guid: 8c0a897341583416794c0f33cbe34f47, type: 3}
   flipFX: {fileID: 8300000, guid: d271c7ba8f9734a5ca3457c308569866, type: 3}
   flipFX2: {fileID: 8300000, guid: 2e7c06411b7f546718fd47b84947b4ec, type: 3}
-  click: {fileID: 8300000, guid: 5e4c38786203043c9a930f1c20e84aa0, type: 3}
-  click2: {fileID: 8300000, guid: 5e4c38786203043c9a930f1c20e84aa0, type: 3}
+  click: {fileID: 8300000, guid: 01e88797d0b7743e783fa9bbef189aa5, type: 3}
+  click2: {fileID: 8300000, guid: fdd92bce3513945bd9ac02a7d0fbbd7d, type: 3}
 --- !u!82 &774595986
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2958,7 +2958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDistance: 100
-  buttonSpeed: {x: 0, y: 0}
+  buttonSpeed: 300
 --- !u!114 &1026049157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5166,8 +5166,8 @@ Transform:
   m_GameObject: {fileID: 1638651806}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.11841, y: -0.34307, z: 0}
-  m_LocalScale: {x: 0.86742, y: 0.86742, z: 0.86742}
+  m_LocalPosition: {x: -0.11841, y: -0.30526, z: 0}
+  m_LocalScale: {x: 0.78308076, y: 0.78308076, z: 0.78308076}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5286,8 +5286,8 @@ Transform:
   m_GameObject: {fileID: 1707842699}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7362, y: -1.9572, z: 0}
-  m_LocalScale: {x: 0.52773225, y: 0.52773225, z: 0.52773225}
+  m_LocalPosition: {x: -4.2872, y: -1.7625, z: 0}
+  m_LocalScale: {x: 0.47642085, y: 0.47642085, z: 0.47642085}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 772525298}
